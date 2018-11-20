@@ -1,0 +1,65 @@
+<html>
+
+<body>
+
+<form method="post" action="logindb.php">
+
+
+<h1>SEARCH BOOK</h1>
+ENTER BOOK TITLE OR/AND ISBN OR/AND Author Name:<input type="text" name="usr"><br><br>
+
+<center><input type="submit" name="sub" value="GO"/></center><br><br>
+
+</form>
+
+<form method="post" action="loanbook.php">
+
+<h1>LOAN BOOK</h1>
+ENTER BOOK ISBN:<input type="text" name="loan_isbn"><br><br>
+ENTER BORROWER(Card_no):<input type="text" name="loan_card_no"><br><br>
+
+<center><input type="submit" name="sub" value="GO"/></center><br><br>
+
+</form>
+
+<form method="post" action="checkback.php">
+
+<h1>RETURN BOOK</h1>
+ENTER BOOK ISBN:<input type="text" name="loan_isbn"><br><br>
+ENTER BORROWER(Card_no):<input type="text" name="loan_card_no"><br><br>
+
+<center><input type="submit" name="sub" value="GO"/></center><br><br>
+
+</form>
+
+
+<form method="post" action="createnewborrower.php">
+
+<h1>CREATE NEW BORROWER</h1>
+
+ENTER SSN:<input type="text" name="ssn_temp"><br><br>
+ENTER FIRST NAME:<input type="text" name="first_name"><br><br>
+ENTER LAST NAME:<input type="text" name="last_name"><br><br>
+ENTER ADDRESS:<input type="text" name="address"><br><br>
+
+<center><input type="submit" name="sub2" value="GO"/></center><br><br>
+
+</form>
+
+<form method="post" action="fines.php">
+
+<h1>Show Fines</h1>
+
+SHOW FINES:<input type="text" name="fines_due"><br><br>
+
+<center><input type="submit" name="Show fines/calculate fines" value="GO"/></center><br><br>
+
+</form>
+
+</body>
+
+</html>
+
+
+
+
